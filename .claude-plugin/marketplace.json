@@ -1,0 +1,26 @@
+{
+  "name": "bx-team",
+  "description": "Claude skills from BX Team: running Minecraft servers, and driving desktop apps off-screen.",
+  "owner": {
+    "name": "BX Team",
+    "url": "https://bxteam.org"
+  },
+  "plugins": [
+    {
+      "name": "minecraft-server",
+      "source": "./",
+      "description": "JVM flags and server configuration for Paper, Purpur, DivineMC and Velocity.",
+      "homepage": "https://bxteam.org/tools",
+      "license": "AGPL-3.0-only",
+      "skills": ["./skills/jvm-flags", "./skills/server-config"]
+    },
+    {
+      "name": "desktop-apps",
+      "source": "./",
+      "description": "Run a GUI app off-screen and drive it with real clicks and typing: test it yourself while you build it, or record a promo video of it.",
+      "homepage": "https://github.com/BX-Team/claude-skills",
+      "license": "AGPL-3.0-only",
+      "skills": ["./skills/app-driver", "./skills/app-promo-video"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# take A: beats 8–72, ends while VideCraft is still downloading (cold store)
+8     mark start
+9     click 75 100        # + New instance (empty launcher)
+10.5  type vred
+14    click 378 218       # Vanilla Reimagined
+16.5  click 1088 656      # Install
+18.5  move 900 600
+22    move 700 330
+27    click 75 132        # + New instance
+28.5  click 242 120       # Custom
+30    click 441 193       # Fabric
+31.5  click 1111 656      # Create
+33.5  click 1162 127      # + Add mods
+36    click 138 273       # Sodium
+37    click 138 330       # Iris Shaders
+38    click 138 506       # FerriteCore
+39.3  click 1027 659      # Install selected
+42.5  click 846 659       # Done
+43.8  click 1205 245      # switch Iris Shaders off
+45.2  click 75 164        # + New instance
+46.5  click 346 120       # Link or file
+47.2  type gh:NONPLAYT/VC-Create
+55    click 697 206       # Check
+56.5  move 1000 420
+61    click 1124 314      # optional shaders group
+62.5  click 1102 656      # Install (cold, ~1:45)
+64.5  move 760 560
+67    move 700 470
+72    mark end

@@ -1,0 +1,41 @@
+# Riven teaser 1.1.0: one real-time take on the 45 s timeline (beat 8 = 3.75 s, outro from beat 88)
+8     mark start
+9     click 75 132        # + New instance
+10.5  type vred
+13.5  click 378 218       # Vanilla Reimagined
+16    click 1088 656      # Install
+18.5  move 900 600
+23    move 700 330
+28    click 110 132       # VideCraft: Create
+29.5  click 1205 245      # switch a mod off
+30.5  click 1205 321      # switch a mod off
+31.6  move 900 420
+32    scroll 22 0.04
+35    click 823 72        # Resource packs
+37    click 922 72        # Shaders
+39    click 1010 72       # Configs
+41    click 1084 72       # Logs
+43    click 75 620        # Settings
+45.5  click 515 440       # Night
+47.5  click 842 440       # Ember
+49.5  click 904 226       # Appearance ▾
+50.5  click 846 294       # Light
+52.5  click 515 608       # Paper
+54.5  click 904 226       # Appearance ▾
+55.5  click 846 324       # Dark
+57    click 351 440       # Graphite
+59    click 1160 21       # developer mode
+61.5  click 118 339       # "Dependencies" view
+63.5  click 22 152        # files
+65.5  click 992 64        # Release
+67.5  move 700 450
+70    click 1160 21       # leave developer mode
+72    click 75 620        # Settings
+74    click 97 175        # Java and memory
+75.3  move 1150 430
+75.6  scroll 5 0.06       # page down to memory
+77    down 469 485        # maximum memory slider
+79    up 650 485
+82    click 80 71         # Library
+86    click 1192 684      # Play
+88    mark end
